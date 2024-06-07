@@ -2172,7 +2172,7 @@ input[type=color] {
 .tg-hero-button {
   line-height: 0;
 }
-.tg-hero-button img{display: block;margin: 0 auto 21px;max-width: 600px;}
+.tg-hero-button img{display: block;margin: 0 auto 21px;max-width: 317px;}
 .bgfiex{display: flex;justify-content: center;align-items: center;width: 100vw;height: 100vh;margin: 0 auto;position: relative;z-index: 999;}
 
 .tg-hero-thumb-box {
@@ -8021,7 +8021,14 @@ input[type=color] {
     margin-left: 70px;
   }
 }
+
+
+#myVideo{max-width: 480px;display: block;margin: 0 auto 42px;border-radius: 10px;overflow: hidden;}
+
+
 @media (max-width: 767px) {
+  .tg-hero-button img{ max-width: 250px;}
+  #myVideo{max-width:83%;}
   .footer-col-4-2 {
     margin-left: 0;
   }
@@ -8084,6 +8091,5 @@ input[type=color] {
       transform: scale(1)
   }
 }
-
 
 /*# sourceMappingURL=main.css.map */

@@ -12,8 +12,9 @@
     e.preventDefault();
 });
 
-
-document.getElementById('navigateButton').addEventListener('click', function() { 
-		window.location.href = "https://www.example.com";  
+ 
+document.addEventListener('DOMContentLoaded', function() {
+    var video = document.getElementById('myVideo');
+    video.play();
 });
 
